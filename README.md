@@ -1,0 +1,20 @@
+## SpringBoot init template
+- SpingBoot 2.7
+- Sping MVC
+- MySQL Driver
+- MyBatis
+- MyBatisPlus
+- Spring Session Redis 分布式登录
+- String AOP
+- Apache Commons Lang3
+- Lombook
+- Swagger + Knife4j
+- SpringBoot调试工具和项目处理器
+- 日志全局请求响应拦截器
+- 全局异常处理
+- 自定义错误码
+- 封装响应类
+- 示例：
+  - 注册、登录、搜索功能
+  - 单元测试类
+  - 用户表
