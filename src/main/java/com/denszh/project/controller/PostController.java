@@ -1,23 +1,23 @@
-package com.yupi.project.controller;
+package com.denszh.project.controller;
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
-import com.yupi.project.annotation.AuthCheck;
-import com.yupi.project.common.BaseResponse;
-import com.yupi.project.common.DeleteRequest;
-import com.yupi.project.common.ErrorCode;
-import com.yupi.project.common.ResultUtils;
-import com.yupi.project.constant.CommonConstant;
-import com.yupi.project.exception.BusinessException;
-import com.yupi.project.model.dto.post.PostAddRequest;
-import com.yupi.project.model.dto.post.PostDoThumbRequest;
-import com.yupi.project.model.dto.post.PostQueryRequest;
-import com.yupi.project.model.dto.post.PostUpdateRequest;
-import com.yupi.project.model.entity.Post;
-import com.yupi.project.model.entity.User;
-import com.yupi.project.model.vo.PostVO;
-import com.yupi.project.service.PostService;
-import com.yupi.project.service.UserService;
+import com.denszh.project.annotation.AuthCheck;
+import com.denszh.project.common.BaseResponse;
+import com.denszh.project.common.DeleteRequest;
+import com.denszh.project.common.ErrorCode;
+import com.denszh.project.common.ResultUtils;
+import com.denszh.project.constant.CommonConstant;
+import com.denszh.project.exception.BusinessException;
+import com.denszh.project.model.dto.post.PostAddRequest;
+import com.denszh.project.model.dto.post.PostDoThumbRequest;
+import com.denszh.project.model.dto.post.PostQueryRequest;
+import com.denszh.project.model.dto.post.PostUpdateRequest;
+import com.denszh.project.model.entity.Post;
+import com.denszh.project.model.entity.User;
+import com.denszh.project.model.vo.PostVO;
+import com.denszh.project.service.PostService;
+import com.denszh.project.service.UserService;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.BeanUtils;
@@ -34,7 +34,7 @@ import java.util.stream.Collectors;
 /**
  * 帖子接口
  *
- * @author yupi
+ * @author denszh
  */
 @RestController
 @RequestMapping("/post")

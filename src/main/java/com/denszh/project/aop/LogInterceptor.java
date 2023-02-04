@@ -1,4 +1,4 @@
-package com.yupi.project.aop;
+package com.denszh.project.aop;
 
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
@@ -17,7 +17,7 @@ import java.util.UUID;
 /**
  * 请求响应日志 AOP
  *
- * @author yupi
+ * @author denszh
  **/
 @Aspect
 @Component
@@ -27,7 +27,7 @@ public class LogInterceptor {
     /**
      * 执行拦截
      */
-    @Around("execution(* com.yupi.project.controller.*.*(..))")
+    @Around("execution(* com.denszh.project.controller.*.*(..))")
     public Object doInterceptor(ProceedingJoinPoint point) throws Throwable {
         // 计时
         StopWatch stopWatch = new StopWatch();

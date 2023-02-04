@@ -1,19 +1,19 @@
-package com.yupi.project.service.impl;
+package com.denszh.project.service.impl;
 
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.yupi.project.common.ErrorCode;
-import com.yupi.project.exception.BusinessException;
-import com.yupi.project.mapper.PostMapper;
-import com.yupi.project.model.entity.Post;
-import com.yupi.project.model.enums.PostGenderEnum;
-import com.yupi.project.model.enums.PostReviewStatusEnum;
-import com.yupi.project.service.PostService;
+import com.denszh.project.common.ErrorCode;
+import com.denszh.project.exception.BusinessException;
+import com.denszh.project.mapper.PostMapper;
+import com.denszh.project.model.entity.Post;
+import com.denszh.project.model.enums.PostGenderEnum;
+import com.denszh.project.model.enums.PostReviewStatusEnum;
+import com.denszh.project.service.PostService;
 import org.apache.commons.lang3.ObjectUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.stereotype.Service;
 
 /**
- * @author yupili
+ * @author denszhli
  * @description 针对表【post(帖子)】的数据库操作Service实现
  */
 @Service

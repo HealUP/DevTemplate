@@ -1,4 +1,4 @@
-package com.yupi.project.model.dto.post;
+package com.denszh.project.model.dto.post;
 
 import lombok.Data;
 

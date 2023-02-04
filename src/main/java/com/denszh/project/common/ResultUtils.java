@@ -1,9 +1,9 @@
-package com.yupi.project.common;
+package com.denszh.project.common;
 
 /**
  * 返回工具类
  *
- * @author yupi
+ * @author denszh
  */
 public class ResultUtils {
 

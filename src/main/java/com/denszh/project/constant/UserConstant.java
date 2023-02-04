@@ -1,9 +1,9 @@
-package com.yupi.project.constant;
+package com.denszh.project.constant;
 
 /**
  * 用户常量
  *
- * @author yupi
+ * @author denszh
  */
 public interface UserConstant {
 

@@ -1,11 +1,11 @@
-package com.yupi.project.exception;
+package com.denszh.project.exception;
 
-import com.yupi.project.common.ErrorCode;
+import com.denszh.project.common.ErrorCode;
 
 /**
  * 自定义异常类
  *
- * @author yupi
+ * @author denszh
  */
 public class BusinessException extends RuntimeException {
 

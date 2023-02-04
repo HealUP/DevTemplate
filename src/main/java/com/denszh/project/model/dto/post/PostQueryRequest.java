@@ -1,6 +1,6 @@
-package com.yupi.project.model.dto.post;
+package com.denszh.project.model.dto.post;
 
-import com.yupi.project.common.PageRequest;
+import com.denszh.project.common.PageRequest;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 
@@ -9,7 +9,7 @@ import java.io.Serializable;
 /**
  * 查询请求
  *
- * @author yupi
+ * @author denszh
  */
 @EqualsAndHashCode(callSuper = true)
 @Data

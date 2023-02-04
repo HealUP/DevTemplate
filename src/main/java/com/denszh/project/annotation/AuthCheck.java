@@ -1,4 +1,4 @@
-package com.yupi.project.annotation;
+package com.denszh.project.annotation;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
@@ -8,7 +8,7 @@ import java.lang.annotation.Target;
 /**
  * 权限校验
  *
- * @author yupi
+ * @author denszh
  */
 @Target(ElementType.METHOD)
 @Retention(RetentionPolicy.RUNTIME)
