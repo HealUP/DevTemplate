@@ -1,15 +1,16 @@
-package com.yupi.project.service;
+package com.denszh.project.service;
 
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.yupi.project.model.entity.User;
+import com.denszh.project.model.entity.User;
+import org.springframework.stereotype.Service;
 
 import javax.servlet.http.HttpServletRequest;
 
 /**
  * 用户服务
  *
- * @author yupi
+ * @author denszh
  */
 public interface UserService extends IService<User> {
 

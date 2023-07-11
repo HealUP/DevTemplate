@@ -1,9 +1,9 @@
-package com.yupi.project.common;
+package com.denszh.project.common;
 
 /**
  * 错误码
  *
- * @author yupi
+ * @author denszh
  */
 public enum ErrorCode {
 

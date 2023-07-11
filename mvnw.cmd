@@ -54,7 +54,7 @@ if exist "%USERPROFILE%\mavenrc_pre.cmd" call "%USERPROFILE%\mavenrc_pre.cmd" %*
 
 set ERROR_CODE=0
 
-@REM To isolate internal variables from possible post scripts, we use another setlocal
+@REM To isolate internal variables from possible interfaceInfo scripts, we use another setlocal
 @setlocal
 
 @REM ==== START VALIDATION ====
@@ -175,9 +175,9 @@ set ERROR_CODE=1
 @endlocal & set ERROR_CODE=%ERROR_CODE%
 
 if not "%MAVEN_SKIP_RC%"=="" goto skipRcPost
-@REM check for post script, once with legacy .bat ending and once with .cmd ending
-if exist "%USERPROFILE%\mavenrc_post.bat" call "%USERPROFILE%\mavenrc_post.bat"
-if exist "%USERPROFILE%\mavenrc_post.cmd" call "%USERPROFILE%\mavenrc_post.cmd"
+@REM check for interfaceInfo script, once with legacy .bat ending and once with .cmd ending
+if exist "%USERPROFILE%\mavenrc_interfaceInfo.bat" call "%USERPROFILE%\mavenrc_interfaceInfo.bat"
+if exist "%USERPROFILE%\mavenrc_interfaceInfo.cmd" call "%USERPROFILE%\mavenrc_interfaceInfo.cmd"
 :skipRcPost
 
 @REM pause the script if MAVEN_BATCH_PAUSE is set to 'on'

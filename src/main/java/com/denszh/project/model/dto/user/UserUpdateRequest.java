@@ -1,4 +1,4 @@
-package com.yupi.project.model.dto.user;
+package com.denszh.project.model.dto.user;
 
 import com.baomidou.mybatisplus.annotation.TableField;
 import lombok.Data;
@@ -8,7 +8,7 @@ import java.io.Serializable;
 /**
  * 用户更新请求
  *
- * @author yupi
+ * @author denszh
  */
 @Data
 public class UserUpdateRequest implements Serializable {

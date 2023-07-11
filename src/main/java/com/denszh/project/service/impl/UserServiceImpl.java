@@ -1,12 +1,12 @@
-package com.yupi.project.service.impl;
+package com.denszh.project.service.impl;
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.yupi.project.common.ErrorCode;
-import com.yupi.project.exception.BusinessException;
-import com.yupi.project.mapper.UserMapper;
-import com.yupi.project.model.entity.User;
-import com.yupi.project.service.UserService;
+import com.denszh.project.common.ErrorCode;
+import com.denszh.project.exception.BusinessException;
+import com.denszh.project.mapper.UserMapper;
+import com.denszh.project.model.entity.User;
+import com.denszh.project.service.UserService;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.stereotype.Service;
@@ -15,14 +15,14 @@ import org.springframework.util.DigestUtils;
 import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
 
-import static com.yupi.project.constant.UserConstant.ADMIN_ROLE;
-import static com.yupi.project.constant.UserConstant.USER_LOGIN_STATE;
+import static com.denszh.project.constant.UserConstant.ADMIN_ROLE;
+import static com.denszh.project.constant.UserConstant.USER_LOGIN_STATE;
 
 
 /**
  * 用户服务实现类
  *
- * @author yupi
+ * @author denszh
  */
 @Service
 @Slf4j
@@ -35,7 +35,7 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User>
     /**
      * 盐值，混淆密码
      */
-    private static final String SALT = "yupi";
+    private static final String SALT = "denszh";
 
     @Override
     public long userRegister(String userAccount, String userPassword, String checkPassword) {

@@ -1,4 +1,4 @@
-package com.yupi.project.model.dto.user;
+package com.denszh.project.model.dto.user;
 
 import lombok.Data;
 
@@ -7,7 +7,7 @@ import java.io.Serializable;
 /**
  * 用户创建请求
  *
- * @author yupi
+ * @author denszh
  */
 @Data
 public class UserAddRequest implements Serializable {

@@ -1,11 +1,11 @@
-package com.yupi.project.aop;
+package com.denszh.project.aop;
 
 import com.baomidou.mybatisplus.core.toolkit.CollectionUtils;
-import com.yupi.project.annotation.AuthCheck;
-import com.yupi.project.common.ErrorCode;
-import com.yupi.project.exception.BusinessException;
-import com.yupi.project.model.entity.User;
-import com.yupi.project.service.UserService;
+import com.denszh.project.annotation.AuthCheck;
+import com.denszh.project.common.ErrorCode;
+import com.denszh.project.exception.BusinessException;
+import com.denszh.project.model.entity.User;
+import com.denszh.project.service.UserService;
 import org.apache.commons.lang3.StringUtils;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;
@@ -25,7 +25,7 @@ import java.util.stream.Collectors;
 /**
  * 权限校验 AOP
  *
- * @author yupi
+ * @author denszh
  */
 @Aspect
 @Component

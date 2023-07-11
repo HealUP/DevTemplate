@@ -1,12 +1,12 @@
-package com.yupi.project.common;
+package com.denszh.project.common;
 
-import com.yupi.project.constant.CommonConstant;
+import com.denszh.project.constant.CommonConstant;
 import lombok.Data;
 
 /**
  * 分页请求
  *
- * @author yupi
+ * @author denszh
  */
 @Data
 public class PageRequest {

@@ -1,13 +1,13 @@
-package com.yupi.project.model.vo;
+package com.denszh.project.model.vo;
 
-import com.yupi.project.model.entity.Post;
+import com.denszh.project.model.entity.Post;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 
 /**
  * 帖子视图
  *
- * @author yupi
+ * @author denszh
  * @TableName product
  */
 @EqualsAndHashCode(callSuper = true)

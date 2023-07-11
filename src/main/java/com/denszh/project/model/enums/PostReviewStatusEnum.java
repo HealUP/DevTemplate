@@ -1,4 +1,4 @@
-package com.yupi.project.model.enums;
+package com.denszh.project.model.enums;
 
 import java.util.Arrays;
 import java.util.List;
@@ -7,7 +7,7 @@ import java.util.stream.Collectors;
 /**
  * 帖子审核状态枚举
  *
- * @author yupi
+ * @author denszh
  */
 public enum PostReviewStatusEnum {
 

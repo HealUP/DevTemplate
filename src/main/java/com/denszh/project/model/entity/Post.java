@@ -1,4 +1,4 @@
-package com.yupi.project.model.entity;
+package com.denszh.project.model.entity;
 
 import com.baomidou.mybatisplus.annotation.*;
 import lombok.Data;
@@ -9,9 +9,9 @@ import java.util.Date;
 /**
  * 帖子
  *
- * @TableName post
+ * @TableName interfaceInfo
  */
-@TableName(value = "post")
+@TableName(value = "interfaceInfo")
 @Data
 public class Post implements Serializable {
     /**

@@ -1,4 +1,4 @@
-package com.yupi.project.config;
+package com.denszh.project.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.CorsRegistry;
@@ -7,7 +7,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 /**
  * 全局跨域配置
  *
- * @author yupi
+ * @author denszh
  */
 @Configuration
 public class CorsConfig implements WebMvcConfigurer {

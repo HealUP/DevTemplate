@@ -1,4 +1,4 @@
-package com.yupi.project.config;
+package com.denszh.project.config;
 
 import com.baomidou.mybatisplus.annotation.DbType;
 import com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor;
@@ -10,10 +10,10 @@ import org.springframework.context.annotation.Configuration;
 /**
  * MyBatis Plus 配置
  *
- * @author yupi
+ * @author denszh
  */
 @Configuration
-@MapperScan("com.yupi.project.mapper")
+@MapperScan("com.denszh.project.mapper")
 public class MyBatisPlusConfig {
 
     /**

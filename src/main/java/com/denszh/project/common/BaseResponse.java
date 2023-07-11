@@ -1,4 +1,4 @@
-package com.yupi.project.common;
+package com.denszh.project.common;
 
 import lombok.Data;
 
@@ -8,7 +8,7 @@ import java.io.Serializable;
  * 通用返回类
  *
  * @param <T>
- * @author yupi
+ * @author denszh
  */
 @Data
 public class BaseResponse<T> implements Serializable {
