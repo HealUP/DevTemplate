@@ -1,4 +1,3 @@
-package com.denszh.project.model.dto.interfaceInfo;
 
 import lombok.Data;
 
